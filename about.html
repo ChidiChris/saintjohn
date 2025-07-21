@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About | St. John's Catholic Cathedral | Bauchi</title>
+    <meta name="description" content="Welcome to St. John's Catholic Cathedral Church, Bauchi">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Chidi Christopher">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="theme-color" content="#bc451d">
+
+    <!-- Favicon -->
+    <link href="img/logo/favpng_e69a227c7ef5b29393c84a36fe963b88.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Check if the URL has a .html extension
+            if (window.location.pathname.endsWith('.html')) {
+                // Remove the .html extension and update the URL
+                var newPath = window.location.pathname.replace('.html', '');
+                window.history.replaceState({}, document.title, newPath);
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container-xxl p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 5rem; height: 5rem;" role="status">
+                <!-- <span class="sr-only">Loading...</span> -->
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <div id="tsparticles"></div>
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark-2 px-4 px-lg-5 py-3 py-lg-2">
+                <a href="" class="navbar-brand p-0">
+                    <!-- <h1 class="text-primary m-0"><i class="fa fa-church me-3"></i>Mar.Gregorios Church<h1> -->
+                    <img src="img/logo/favpng_e69a227c7ef5b29393c84a36fe963b88.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" aria-label="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="javascript:void(0)" class="nav-item nav-link active">About</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+                        <a href="events.html" class="nav-item nav-link">Events</a>
+                        <!-- <div class="nav-item dropdown"> -->
+                        <a href="booking.html" class="nav-item nav-link">Mass Booking</a>
+                        <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
+                        <!-- <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div> -->
+                        <!-- </div> -->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="tel:+2348106766424" class="btn btn-primary py-2 px-4"><i class="fa fa-phone"></i>
+                        +2348106766424</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 my-5 animated slideInDown">About</h1>
+                    <h5 class="display-3 mb-3 my-5 animated slideInDown" id="namespace-shadow">St. John's Catholic
+                        Cathedral Bauchi</h5>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase my-5">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <!--<li class="breadcrumb-item"><a href="javascript:void(0)">Pages</a></li>-->
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a
+                                    class="text-white active" href="javascript:void(0)">About</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!-- Google Translate -->
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript"
+                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!-- Google Translate -->
+        </div>
+        <!-- Checkbox -->
+        <div class="check-box">
+            <small class="text-muted" style="font-size: 8px;">Dark Theme</small>
+            <input id="darkModeToggle" type="checkbox" title="Twinkle Theme">
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl" id="index-about">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img id="img-hover" class="img-fluid rounded w-100 wow zoomIn" alt="image-1"
+                                    data-wow-delay="0.1s" src="img/church view 1.jpg" />
+                            </div>
+                            <div class="col-6 text-start">
+                                <img id="img-hover" class="img-fluid rounded w-75 wow zoomIn" alt="image-2"
+                                    data-wow-delay="0.3s" src="img/church view 2.jpg" style="margin-top: 25%;" />
+                            </div>
+                            <div class="col-6 text-end">
+                                <img id="img-hover" class="img-fluid rounded w-75 wow zoomIn" alt="image-3 "
+                                    data-wow-delay="0.5s" src="img/church view 3.jpg" />
+                            </div>
+                            <div class="col-6 text-end">
+                                <img id="img-hover" class="img-fluid rounded w-100 wow zoomIn" alt="image-4"
+                                    data-wow-delay="0.7s" src="img/church view 4.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-center pb-3">
+                            <h5 class="section-title ff-secondary text-center text-primary fw-normal">About</h5>
+                        </div>
+                        <h1 class="mb-4"><i class="fa fa-church text-primary me-2"></i> Welcome to Mar.Gregorios Church
+                        </h1>
+                        <p class="mb-4 text-justify">
+                            St. John's Catholic Cathedral is located at the episcopal see of Bauchi in Bauchi state.
+                            Established on the 5th of July 1996 as Apostolic Vicariate of Bauchi, on territory split off
+                            from its metropolitan, the Archdiocese of Jos
+                            and promoted on the 31st of December 2023 as Diocese of Bauchi.</p>
+                        <p class="mb-4 text-justify">
+                            Beyond its role as a place of worship, St. john's Catholic Cathedral is a spiritual and
+                            administrative heart of the Catholic Church in Bauchi state. It
+                            oversee various medical and educational institute, including numerious nursery, primary, and
+                            secondary schools across Bauchi, demostrating its commutement to community development and
+                            education. The cathedral’s initiatives foster holistic growth, providing essential services
+                            and nurturing the intellectual and spiritual well-being of the local community. Through
+                            these efforts, St. John’s stands as a beacon of hope, promoting spiritual and social welfare
+                            and
+                            empowering future generations with knowledge and faith.
+                        </p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <div class="ps-4">
+                                        <!-- <p class="mb-0">Years Since</p> -->
+                                        <h6 class="mb-0">Years Since Promotion (2003)</h6>
+                                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
+                                            21</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                    <div class="ps-4">
+                                        <!-- <p class="mb-0">Families</p> -->
+                                        <h6 class="mb-0">Families</h6>
+                                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
+                                            150</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="text-center pb-3">
+                            <h5 class="section-title ff-secondary text-center text-primary fw-normal">History</h5>
+                        </div>
+                        <h1 class="mb-4 text-center"><i class="fa fa-history text-primary me-2"></i> St. John's Catholic
+                            Cathedral Bauchi</h1>
+                        <p class="mb-4 text-justify">
+                            The <b>Catholic Church</b> is the oldest and largest Christian Church in the world, with
+                            over 1.3 billion members globally. It traces its origin to Jesus Christ and the apostles,
+                            particularly St. Peter, the first pope. The Church is known for its universal mission, deep
+                            spiritual traditions, and its enduring commitment to truth, love, service, and the dignity
+                            of all human life. Guided by the Pope in Rome, the Catholic Church is organized into
+                            dioceses and parishes around the world, where the faithful gather for worship, receive the
+                            sacraments, and live out the Gospel.<br>
+                            The Diocese of Bauchi was established in 2003 by Pope John Paul II. It was carved out of the
+                            Archdiocese of Jos to better serve the faithful in Bauchi State, located in northeastern
+                            Nigeria. The diocese covers a vast geographical area and operates in a region with a
+                            predominantly Muslim population. Despite being a religious minority, the Catholic community
+                            in Bauchi is strong, committed, and growing.<br>
+
+                            At the heart of the Diocese is <b>St. John the Evangelist Catholic Cathedral,</b> located in
+                            Bauchi
+                            city, the state capital. As the Mother Church of the diocese, the Cathedral is the
+                            liturgical and administrative center of Catholic life in the region. It is the official seat
+                            of the bishop and the focal point for major diocesan celebrations, ordinations, and pastoral
+                            activities.<br>
+
+                            St. John’s Cathedral serves as a place of worship, community gathering, and spiritual
+                            formation for Catholics in and around Bauchi. Masses are celebrated regularly in English and
+                            Hausa, ensuring accessibility to a diverse and multilingual congregation. The Cathedral also
+                            hosts various Church societies, organizations (C.M.O, C.W.O, C.Y.O.N, H.C.A), baptism,
+                            catechism and confirmation classes, and outreach ministries
+                            that serve both Catholics and the wider community.
+
+                            Since its elevation to cathedral status, St. John’s has continued to stand as a symbol of
+                            faith, hope, and resilience, especially in a region that has faced religious tension and
+                            security challenges. In 2012, the Cathedral was the site of a tragic attack, but the
+                            unwavering faith of the people and leadership helped the Church remain strong and united in
+                            the face of adversity.
+
+                            Under the pastoral care of Most Rev. Dr. Hilary Nanman Dachelem, C.M.F., appointed bishop in
+                            2017, the Cathedral and Diocese continue to grow in faith, vocations, and service. Bishop
+                            Dachelem emphasizes the importance of evangelization, education, interfaith dialogue, and
+                            unity in diversity.
+
+                            Today, St. John the Evangelist Cathedral remains a beacon of spiritual life, service, and
+                            community development, not only for the Catholic faithful but also for the wider society in
+                            Bauchi State. Whether through worship, social outreach, or education, the Cathedral remains
+                            committed to building a peaceful, just, and Christ-centered society.
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5> -->
+                        <h1 class="mb-4 text-center"><i class="fa fa-scroll text-primary me-2"></i> Faith and Liturgy
+                        </h1>
+                        <p class="mb-4 text-justify">
+                            The Catholic Church in Nigeria, including at St. John the Evangelist Cathedral, maintains
+                            the traditional Catholic <b>faith and liturgy</b> while embracing a modern approach to
+                            pastoral care, community life, and interfaith dialogue. The Church holds firmly to the
+                            teachings of Sacred Scripture, Sacred Tradition, and the authority of the Magisterium —
+                            teachings passed down from the apostles and preserved through the centuries.
+
+                            The Roman Rite, also known as the Latin Rite, is the primary liturgical tradition followed
+                            in the Cathedral. While the core structure of the Mass and sacraments remains universal, the
+                            Church adapts to local culture by offering liturgies in both English and Hausa, making
+                            worship accessible to all. Hymns, prayers, and preaching often reflect the rhythm and
+                            culture of the local faithful while staying faithful to Catholic doctrine.
+
+                            The Cathedral observes the liturgical calendar of the Roman Catholic Church, which includes
+                            the seasons of Advent, Christmas, Lent, Easter, and Ordinary Time, along with solemnities,
+                            feasts, and memorials of saints. The seven sacraments are celebrated with reverence and joy,
+                            particularly the Eucharist, which is central to the life of the Church.
+
+                            The Catholic community in Bauchi shares the values, customs, and daily life common to other
+                            Nigerians. While being distinct in religious identity, Catholics in the region participate
+                            fully in the social, cultural, and civic life of the community. Faith is integrated with
+                            everyday living, and the Church plays an active role in promoting peace, education, and
+                            moral values.
+
+                            <br>
+                            Though deeply rooted in ancient tradition, the Church remains open to renewal, always
+                            seeking ways to deepen faith and encourage participation in a rapidly changing world. St.
+                            John’s Cathedral continues to be a place where the eternal truths of the Church are lived
+                            out in a local and meaningful context.
+                        </p>
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5> -->
+                        <h1 class="mb-4 text-center"><i class="fa fa-crown text-primary me-2"></i> Hierarchy of the
+                            Catholic Church
+                        </h1>
+                        <p class="mb-4 text-justify">
+                            The Catholic Church functions through a sacred and time-tested hierarchy that reflects its
+                            apostolic roots, theological order, and spiritual mission. This hierarchical structure was
+                            established by Jesus Christ when He chose the twelve Apostles and entrusted them with the
+                            responsibility of leading His Church. Among them, St. Peter was given a special role of
+                            leadership, which continues today in the person of the Pope. The Pope, based in Rome, is the
+                            spiritual head of the entire Catholic Church and the visible sign of unity among Catholics
+                            across the world. From him flows the authority that ensures the Church remains one in faith,
+                            doctrine, and moral teaching.
+
+                            Working in communion with the Pope are bishops, who are successors of the Apostles. Each
+                            bishop governs a specific geographical area known as a diocese, where he is responsible for
+                            teaching the faith, celebrating the sacraments, and shepherding the people of God. Under his
+                            guidance, priests are assigned to parishes, where they lead local communities in worship,
+                            administer the sacraments, and offer pastoral care. Deacons also play a vital role,
+                            assisting in liturgical services and engaging in works of charity and evangelization. This
+                            structure is not merely administrative but sacramental, grounded in the Church’s belief that
+                            Christ Himself works through the ordained ministry to guide and sanctify His people.<br>
+                            At St. John the Evangelist Catholic Cathedral in Bauchi, we are an integral part of this
+                            hierarchical communion. The Diocese of Bauchi is led by Most Rev. Hilary Nanman Dachelem,
+                            C.M.F., who shares in the mission of the universal Church while addressing the unique needs
+                            of the faithful in our region. Through our participation in the diocesan and global Church
+                            structure, we are united with millions of Catholics around the world in one faith, one
+                            baptism, and one spiritual family. The hierarchy not only preserves the integrity of
+                            Catholic teaching but also ensures that every community, no matter how small or distant,
+                            remains connected to the living tradition of the Church founded by Christ over 2,000 years
+                            ago.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Saints Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center pb-3">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Saints</h5>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <img class="flex-shrink-0 img-fluid px-1 py-1" src="img/SJ1.png" alt=""
+                                    style="width: 80px;">
+                                <!-- <i class="fa fa-3x fa-cross text-primary mb-4"></i> -->
+                                <h5 class="text-primary">St. John</h5>
+                                <p class="text-justify">John the Apostle[12] (Ancient Greek: Ἰωάννης; Latin:
+                                    Ioannes;[13] c. 6 AD – c. 100 AD), also known as Saint John the Beloved and, in
+                                    Eastern Orthodox Christianity, Saint John the Theologian,[14] was one of the Twelve
+                                    Apostles of Jesus according to the New Testament. Generally listed as the youngest
+                                    apostle, he was the son of Zebedee and Salome. His brother James was another of the
+                                    Twelve Apostles. The Church Fathers identify him as John the Evangelist, John of
+                                    Patmos...</p>
+                                <a id="btn-center" class="btn-primary py-1 px-3 mb-5"
+                                    href="https://en.wikipedia.org/wiki/John_the_Apostle" target="_blank"
+                                    rel="noopener">Read more <i class="fa fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <img class="flex-shrink-0 img-fluid px-1 py-1" src="img/752-peter-orig.jpg" alt=""
+                                    style="width: 80px;">
+                                <!-- <i class="fa fa-3x fa-cross text-primary mb-4"></i> -->
+                                <h5 class="text-primary">St. Peter</h5>
+                                <p class="text-justify"> Saint Peter[note 1] (born Shimon Bar Yonah; 1 BC – AD
+                                    64/68),[1]
+                                    also known as Peter the Apostle, Simon Peter, Simeon, Simon, or Cephas, was one of
+                                    the Twelve Apostles of Jesus and one of the first leaders of the early Christian
+                                    Church. He appears repeatedly and prominently in all four New Testament gospels, as
+                                    well as the Acts of the Apostles. Catholic and Orthodox tradition treats Peter as
+                                    the first bishop of Rome – or pope – and also as the first bishop of Antioch...</p>
+                                <a id="btn-center" class="btn-primary py-1 px-3 mb-5"
+                                    href="https://en.wikipedia.org/wiki/Saint_Peter" target="_blank" rel="noopener">Read
+                                    more <i class="fa fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <img class="flex-shrink-0 img-fluid px-1 py-1" src="img/st-paul-icon-751.jpg" alt=""
+                                    style="width: 80px;">
+                                <!-- <i class="fa fa-3x fa-cross text-primary mb-4"></i> -->
+                                <h5 class="text-primary">St. Paul</h5>
+                                <p class="text-justify">Paul,[a] also named Saul of Tarsus,[b] commonly known as Paul
+                                    the Apostle[8] and Saint Paul,[9] was a Christian apostle (c. 5 – c. 64/65 AD) who
+                                    spread the teachings of Jesus in the first-century world.[10] For his contributions
+                                    towards the New Testament, he is generally regarded as one of the most important
+                                    figures of the Apostolic Age,[9][11] and he also founded several Christian
+                                    communities in Asia Minor and Europe from the mid-40s to the mid-50s AD.[10] The
+                                    main...</p>
+                                <a id="btn-center" class="btn-primary py-1 px-3 mb-5"
+                                    href="https://en.wikipedia.org/wiki/Paul_the_Apostle" target="_blank"
+                                    rel="noopener">Read more <i class="fa fa-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                                <h5>Sample Text</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Saints End -->
+
+        <!-- Video Start -->
+        <div class="text-center container-xxl px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal py-4">Video</h5>
+            <div class="row g-0">
+                <div class="col-md-12">
+                    <div class="video">
+                        <button type="button" title="youtube" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/pQMWk4xqUAA" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><i
+                                class="fa fa-video me-3 text-danger"></i>Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-lg-1">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                                allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark-2 text-light footer pt-5 mt-1 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-3 b-top">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Church</h4>
+                        <a class="btn btn-link" href="#" onclick="disableAutoplay()">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="booking.html">Mass Bookings</a>
+                        <a class="btn btn-link" href="downloads.html">Downloads</a>
+                        <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                        <a class="btn btn-link" href="terms.html">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2 btn-link"><i class="fa fa-map-marker-alt me-3"></i><a class="text-light"
+                                href="https://www.google.com/maps/place/St.John's+Catholic+Cathedral,+Bauchi/@10.3185039,9.8313292,17z/data=!3m1!4b1!4m6!3m5!1s0x1054d73ded000377:0xb7b98b7996f0701d!8m2!3d10.3185039!4d9.8339041!16s%2Fg%2F11fy4ls5lf?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D"
+                                rel="noopener" target="_blank">8R9M+CH2, Bauchi 740102, Bauchi</a></p>
+                        <p class="mb-2 btn-link"><i class="fa fa-phone-square me-3"></i><a class="text-light"
+                                href="tel:+2348106766424">+2348106766424</a></p>
+                        <p class="mb-2 btn-link"><i class="fa fa-envelope me-3"></i><a class="text-light"
+                                href="mailto:chidichristopher0@gmail.com">chidichristopher0@gmail.com</a></p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social text-primary" title="whatsapp" href="#"><i
+                                    class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social text-primary"
+                                href="https://web.facebook.com/profile.php?id=100090586087512" rel="noopener"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social text-primary" href="#" rel="noopener"
+                                target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social text-primary" href="#" rel="noopener"
+                                target="_blank"><i class="fab fa-internet-explorer"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Mass</h4>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p><i class="fa fa-clock me-3"></i>06:30AM - 9:30AM</p>
+                        <h5 class="text-light fw-normal">Monday - Friday</h5>
+                        <p><i class="fa fa-clock me-3"></i>TBA</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Subscribe to know the latest news.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <form id="myform">
+                                <input class="form-control border-primary w-100 py-3 ps-4 pe-5" name="email" type="text"
+                                    placeholder="Your email" required>
+                                <input type="submit" id="submitForm"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"></input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Counter-->
+                <div style="width: 100%;height: auto;text-align-last: center;padding: 8px;">
+                    <!--on the href below, host the site then paste the github link there. the previous example is https://hits.sh/margregorioschurch.github.io/mgm/-->
+                    <a href="#" class="text-center"><img alt="Hits"
+                            src="https://hits.sh/margregorioschurch.github.io/mgm.svg?style=for-the-badge&label=Visitors%20Count&color=eaeeb5&labelColor=bc451d" /></a>
+                </div>
+                <!--Counter-->
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; Designed by Chidi Christopher. All Rights Reserved.
+                            <a class="border-bottom"
+                                href="https://wa.me/2348106766424?text=Saw%20the%20website%20you%20designed%2E%20Nice%20work%2E%20Please%20send%20your%20account%20number%2C%20i%20will%20like%20to%20buy%20you%20coffee"
+                                target="_blank">
+                                Buy dev coffee <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">Help</a>
+                                <a href="#">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<a id="new_counter" href='http://www.freevisitorcounters.com' style="color:transparent">freevisitorcounters.com</a>
+    		    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d79198028b524b7db87c3ec2d625a1e3f6598080'></script>
+    	  	    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1024946/t/5"></script>-->
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!--Counter-->
+        <!--<div class="counter">
+            <div class="head"><span class="fa fa-globe"></span>&nbsp;Visitors Counter</div>
+            <div class="count" id="CounterVisitorNo">0</div>
+        </div>-->
+        <!--END Counter-->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/visitors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.12.0/tsparticles.bundle.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>-->
+    <script>
+        $("#submitForm").click(function () {
+            alert("The Form has been Submitted.");
+        });
+    </script>
+</body>
+
+</html>
