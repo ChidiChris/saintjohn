@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mgm
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
@@ -272,3 +273,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 
+=======
+# saintjohn
+St. John's Catholic Cathedral Website
+>>>>>>> 7cb6989060b7a7cfa2f3751b94db6a0b7bd94377
