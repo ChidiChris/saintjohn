@@ -39,9 +39,9 @@
   <p align="center">
     An awesome open-source template to jumpstart your project!
     <br />
-    <a href="https://margregorioschurch.github.io/mgm/"><strong>Website Link 1 (Github) »</strong></a>
+    <a href="https://chidichris.github.io/saintjohn/"><strong>Website Link 1 (Github) »</strong></a>
     <br />
-    <a href="https://margregorioschurch.vercel.app/"><strong>Website link 2 (Vercel)»</strong></a>
+    <a href="https://sjcathedral.vercel.app/"><strong>Website link 2 (Vercel)»</strong></a>
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
@@ -84,7 +84,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Screen Shot][product-screenshot]](https://raw.githubusercontent.com/margregorioschurch/mgm/master/screenshot.png)
+[![Product Screen Shot][product-screenshot]](https://raw.githubusercontent.com/ChidiChris/saintjohn/main/screenshot.png)
 
 <!-- <img src="https://raw.githubusercontent.com/margregorioschurch/mgm/master/screenshot.png" alt="Logo" width="100%" height="100%"> -->
 
@@ -217,7 +217,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Gmail - [click to open](chidichristopher0@gmail.com)
 
-<!-- Project Link: [click to open](https://margregorioschurch.github.io/mgm/) -->
+Project Link: [click to open](https://ChidiChris.github.io/saintjohn/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,6 +236,8 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [gregorious dev for their beautiful and amazing templates]
+* [Tech. Raymond and Tech. Yohanna for thier unending support]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
