@@ -79,7 +79,7 @@ async function load_readings() {
             ${readingsHtml}
         `;
     } catch (error) {
-        document.querySelector("#readings").innerHTML = "Failed to load readings.";
+        document.querySelector("#readings").innerHTML = "Failed to load readings. Please refresh the page.";
         console.error("Error fetching readings:", error);
     }
 }
