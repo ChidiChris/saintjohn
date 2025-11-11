@@ -127,9 +127,9 @@ document.addEventListener('DOMContentLoaded', function() {
       { title: 'Family week part (2).', day: '11-12' },
       { title: 'Family week part (2).', day: '11-13' },
       { title: 'Family week part (2).', day: '11-14' },
-      { title: 'Thirty-third Sunday Year C (Adult Harvest & Bazaar).', day: '11-16' },
+      { title: 'Thirty-third Sunday Year C.', day: '11-16' },
       { title: 'Solemnity of Christ the King.', day: '11-23' },
-      { title: 'First Sunday of Advent Year A.', day: '11-30' },
+      { title: 'First Sunday of Advent Year A (Adult Harvest & Bazaar).', day: '11-30' },
       // December
       { title: 'Second Sunday of Adveent Year A, Christmas Carol.', day: '12-07' },
       { title: 'Immaculate Conception of the Blessed Virgin Mary.', day: '12-08' },
