@@ -34,7 +34,7 @@
     <img src="https://raw.githubusercontent.com/margregorioschurch/mgm/master/img/logo/oie_qTSaQBp0mY24%20(2).png" alt="Logo" width="330" height="80">
   </a> -->
 
-  <h3 align="center">St. John Catholic Cathedral Unofficial Website Template</h3>
+  <h3 align="center">St. John Catholic Cathedral Official Website Template</h3>
 
   <p align="center">
     An awesome open-source template to jumpstart your project!
