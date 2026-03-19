@@ -10,14 +10,18 @@
     --gray: #666666;
     --brown: #bc451d;
     --black: #202020;
-    --text-light: #ffffff; /* Light text color */
-    --text-dark: #333333; /* Dark text color */
-    --background-light: #ffffff; /* Light background color */
-    --background-dark: #121212; /* Dark background color */
+    --text-light: #ffffff;
+    /* Light text color */
+    --text-dark: #333333;
+    /* Dark text color */
+    --background-light: #ffffff;
+    /* Light background color */
+    --background-dark: #121212;
+    /* Dark background color */
 }
 
 html {
-  scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
 }
 
 /*body {
@@ -34,59 +38,76 @@ html {
 
 /* dark theme.css */
 body.light-mode {
-    margin:0;
-    font-family:"Open Sans",sans-serif;
-    font-size:1rem;
-    font-weight:400;
-    line-height:1.4;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
     color: var(--text-dark);
     background-color: var(--background-light);
-    -webkit-text-size-adjust:100%;
-    -webkit-tap-highlight-color:rgba(0,0,0,0)
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 body.dark-mode {
-    margin:0;
-    font-family:"Open Sans",sans-serif;
-    font-size:1rem;
-    font-weight:400;
-    line-height:1.4;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
     color: var(--text-light);
     background-color: var(--background-dark);
-    -webkit-text-size-adjust:100%;
-    -webkit-tap-highlight-color:rgba(0,0,0,0)
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 /* styles for light and dark modes */
 
 .dark-mode {
-  color: var(--text-light);
+    color: var(--text-light);
 }
 
-.dark-mode h1, .dark-mode .h1,
-.dark-mode h2, .dark-mode .h2,
-.dark-mode h3, .dark-mode .h3,
-.dark-mode h4, .dark-mode .h4,
-.dark-mode h5, .dark-mode .h5,
-.dark-mode h6, .dark-mode .h6 {
-  color: var(--text-light);
+.dark-mode h1,
+.dark-mode .h1,
+.dark-mode h2,
+.dark-mode .h2,
+.dark-mode h3,
+.dark-mode .h3,
+.dark-mode h4,
+.dark-mode .h4,
+.dark-mode h5,
+.dark-mode .h5,
+.dark-mode h6,
+.dark-mode .h6 {
+    color: var(--text-light);
 }
 
-h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
-    margin-top:0;
-    margin-bottom:.5rem;
-    font-family:"Alegreya Sans SC",sans-serif;
-    font-weight:700;
-    line-height:1.2;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
     color: var(--text-dark);
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
     text-justify: inter-word;
 }
 
-.text-primary{
+.text-primary {
     text-shadow: 2px 2px 1px #00000021;
 }
 
@@ -166,7 +187,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
     border-radius: 2px;
 }
 
-.btn-link{
+.btn-link {
     color: var(--primary);
 }
 
@@ -180,7 +201,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
     text-transform: uppercase;
     font-weight: 500;
     outline: none;
-    transition:ease-in .3s;
+    transition: ease-in .3s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -240,7 +261,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
         background: transparent !important;
         transition: ease-out 0.3s;
     }
-    
+
     .sticky-top.navbar-dark {
         position: fixed;
         background: var(--menu) !important;
@@ -261,8 +282,8 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
     display: block;
 }
 
-@media screen and (max-width: 325px){
-    .hero-header{
+@media screen and (max-width: 325px) {
+    .hero-header {
         height: 570px;
         width: auto;
     }
@@ -277,16 +298,22 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
 }
 
 @keyframes mymove {
-    from {right: 0px;}
-    to {right: 50px;}
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 50px;
+    }
 }
+
 /* @keyframes imgRotate { 
     100% { 
         transform: rotate(360deg); 
     } 
 } */
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
 
@@ -328,7 +355,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
 /*** Service ***/
 .service-item {
     box-shadow: 0px 0px 0px 3px rgb(235 190 175 / 20%);
-    transition:ease-in .3s;
+    transition: ease-in .3s;
     min-height: 525px;
 }
 
@@ -337,7 +364,7 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
 }
 
 .service-item * {
-    transition:ease-in .3s;
+    transition: ease-in .3s;
 }
 
 .service-item:hover * {
@@ -350,11 +377,11 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
     border-bottom: 4px solid var(--brown);
 }
 
-#img-hover{
+#img-hover {
     transition: all ease-in 0.3s;
 }
 
-#img-hover:hover{
+#img-hover:hover {
     transform: scale(1.05);
 }
 
@@ -383,20 +410,20 @@ fc-view-harness fc-view-harness-active {
 }
 
 #calendar a {
-    color:var(--gray) !important;
+    color: var(--gray) !important;
     font-size: large;
     /*font-weight: 700;*/
 }
 
 #calendar button {
     transition: all ease-in 0.3s;
-    font-weight:600;
+    font-weight: 600;
 }
 
 #calendar button:hover {
     transition: all ease-in 0.3s;
-    color:#3788d8 !important;
-    font-weight:600;
+    color: #3788d8 !important;
+    font-weight: 600;
 }
 
 #calendar .fc-h-event .fc-event-title {
@@ -407,7 +434,8 @@ fc-view-harness fc-view-harness-active {
     font-size: 14px;
     line-height: 25px;
     text-align: start;
-    transition: color 0.3s ease-in; /* Smooth transition for color change */
+    transition: color 0.3s ease-in;
+    /* Smooth transition for color change */
     /* Translate and animation setup */
     transform: translateX(100%);
     animation: scroll-left 12s linear infinite;
@@ -415,14 +443,18 @@ fc-view-harness fc-view-harness-active {
 }
 
 #calendar .fc-h-event .fc-event-title:hover {
-    animation-play-state: paused; /* Pause the animation on hover */
-    color: black; /* Change text color to black on hover */
+    animation-play-state: paused;
+    /* Pause the animation on hover */
+    color: black;
+    /* Change text color to black on hover */
 }
 
 @media screen and (max-width: 768px) {
     #calendar .fc-h-event .fc-event-title {
-        font-size: 12px; /* Adjust font size for smaller screens */
-        line-height: 20px; /* Adjust line height for smaller screens */
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+        line-height: 20px;
+        /* Adjust line height for smaller screens */
     }
 }
 
@@ -430,8 +462,10 @@ fc-view-harness fc-view-harness-active {
     0% {
         transform: translateX(20%);
     }
+
     100% {
-        transform: translateX(-100%); /* Change this value based on your needs */
+        transform: translateX(-100%);
+        /* Change this value based on your needs */
     }
 }
 
@@ -439,8 +473,10 @@ fc-view-harness fc-view-harness-active {
     0% {
         -moz-transform: translateX(20%);
     }
+
     100% {
-        -moz-transform: translateX(-100%); /* Change this value based on your needs */
+        -moz-transform: translateX(-100%);
+        /* Change this value based on your needs */
     }
 }
 
@@ -448,18 +484,20 @@ fc-view-harness fc-view-harness-active {
     0% {
         -webkit-transform: translateX(20%);
     }
+
     100% {
-        -webkit-transform: translateX(-100%); /* Change this value based on your needs */
+        -webkit-transform: translateX(-100%);
+        /* Change this value based on your needs */
     }
 }
 
 #calendar .fc-h-event .fc-event-main-frame {
-    overflow-x:hidden;
-    overflow-y:hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .fc-h-event .fc-event-title-container {
-    min-width:auto !important;
+    min-width: auto !important;
 }
 
 .fc .fc-daygrid-day.fc-day-today {
@@ -467,42 +505,63 @@ fc-view-harness fc-view-harness-active {
     box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-#btn-center{
+#btn-center {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    border-radius:2px;
-    border:1px solid #bc451d;
-    color:var(--brown);
+    border-radius: 2px;
+    border: 1px solid #bc451d;
+    color: var(--brown);
 }
 
-.grid-box-sc{
+.grid-box-sc {
     width: 100%;
     height: 600px !important;
     overflow-y: scroll;
     border: 3px solid #bc451db0;
 }
+
 .grid-box-sc h3 {
     color: brown;
 }
+
 .grid-box-sc h2 {
     color: #590f38;
 }
 
 /*** Youtube Video ***/
 .modal-content {
-    background-color:#696969d1;
+    background-color: #696969d1;
 }
 
 .video {
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/deanery.jpeg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/Bishop-new-year-message.jpeg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Add this media query */
+@media (max-width: 768px) {
+    .video {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-image: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/bishop\ best.jpg);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .video {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-image: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/bishop\ best.jpg);
+    }
 }
 
 .video .btn-play {
@@ -586,7 +645,7 @@ fc-view-harness fc-view-harness-active {
     z-index: 99999;
 }
 
-#namespace-shadow{
+#namespace-shadow {
     text-shadow: 2px 2px 3px rgb(255 255 255);
     color: rgb(120, 59, 12);
 }
@@ -684,6 +743,7 @@ fc-view-harness fc-view-harness-active {
     background: var(--primary);
     border-color: var(--primary);
 }
+
 .bg-dark-1 {
     background: url(../img/abstract-png-9096.webp);
     background-size: cover;
@@ -698,7 +758,7 @@ fc-view-harness fc-view-harness-active {
     background-position: center;
 }
 
-.py-6{
+.py-6 {
     padding-top: 3.4rem !important;
     padding-bottom: 3.4rem !important;
 }
@@ -707,6 +767,7 @@ fc-view-harness fc-view-harness-active {
     position: relative;
     color: #000 !important;
 }
+
 /*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
@@ -756,7 +817,7 @@ fc-view-harness fc-view-harness-active {
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
-.b-top{
+.b-top {
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
@@ -775,29 +836,31 @@ fc-view-harness fc-view-harness-active {
     padding-right: 0;
     border-right: none;
 }
+
 /*counter-css*/
 .head {
-  font-size: 12px;
-  font-weight: 600;
-  text-align: center;
-  color:#fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
 }
 
 .count {
-  font-size: 15px;
-  text-shadow: 1px 1px 10px black;
-  text-align: center;
-  color:#fff;
-  font-weight: 600;
+    font-size: 15px;
+    text-shadow: 1px 1px 10px black;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
 }
 
 .counter {
-  width:100%;
-  height: auto;
-  padding: 4px;
-  background: radial-gradient(circle, #333333, #2e2e2e) !important;
-  z-index: 999;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    background: radial-gradient(circle, #333333, #2e2e2e) !important;
+    z-index: 999;
 }
+
 .counterimg {
     text-align: center;
     margin-left: auto;
@@ -806,9 +869,11 @@ fc-view-harness fc-view-harness-active {
     display: block;
     padding-bottom: 15px;
 }
-#new_counter{
-    background:transparent;
+
+#new_counter {
+    background: transparent;
 }
+
 /*cookie consent banner-css*/
 #cookieConsent {
     position: fixed;
@@ -821,12 +886,14 @@ fc-view-harness fc-view-harness-active {
     text-align: center;
     z-index: 9999;
 }
+
 /*responsive-css*/
 @media screen and (max-width:305px) {
     .navbar-dark .navbar-brand img {
         display: none;
     }
 }
+
 @media screen and (max-width:992px) {
     #right-image-animation {
         display: block;
@@ -834,21 +901,24 @@ fc-view-harness fc-view-harness-active {
         top: -50px;
         margin-left: auto;
         margin-right: auto;
-        transform: translate(40px,0px);
+        transform: translate(40px, 0px);
         max-width: 255px;
         max-height: 485px;
     }
+
     #calendar button {
-    font-size:x-small !important;
-    color:#ffffff !important;
+        font-size: x-small !important;
+        color: #ffffff !important;
     }
+
     #calendar h2 {
-    color: #FEA116;
-    font-size: 1rem;
-    text-align: center;
-    text-shadow: 0.5px 0.5px 0px #2c3e508a;
+        color: #FEA116;
+        font-size: 1rem;
+        text-align: center;
+        text-shadow: 0.5px 0.5px 0px #2c3e508a;
     }
 }
+
 /* @media screen and (min-width:325px) {
     #hero-header-2{
         display: none;    }
@@ -858,8 +928,9 @@ fc-view-harness fc-view-harness-active {
     #right-image-animation {
         display: none;
     }
+
     #calendar button {
-        display:none;
+        display: none;
     }
 }
 
@@ -874,25 +945,36 @@ section.todo-outer {
     float: left;
     padding: 30px 0;
 }
+
 section.todo-outer h1 {
     font-size: 40px;
     margin-bottom: 20px;
 }
+
 .todo-inner {
     width: 100%;
     float: left;
     padding: 40px;
     box-shadow: 0px 0px 1px #c1c1c1;
 }
+
 table tr td button {
     background: no-repeat;
     border: none;
     padding: 0;
     cursor: pointer;
 }
-.completed{text-decoration: line-through;}
-#visitor-globe{color:#0d6efd; text-shadow:0 0 1px black;}
-#google_translate_element{
+
+.completed {
+    text-decoration: line-through;
+}
+
+#visitor-globe {
+    color: #0d6efd;
+    text-shadow: 0 0 1px black;
+}
+
+#google_translate_element {
     text-align: right;
     padding-right: 8px;
     position: relative;
@@ -900,18 +982,21 @@ table tr td button {
     width: 100%;
     height: auto;
 }
-.goog-te-gadget .goog-te-combo{
+
+.goog-te-gadget .goog-te-combo {
     margin: 4px 0;
     padding: 4px 5px 4px 5px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     cursor: pointer;
 }
+
 @media screen and (max-width:992px) {
-    #google_translate_element{
-    text-align: center;
-    padding: 0px;
-    position: relative;
-    bottom: 35px;
-    width: 100%;
-    height: auto;
-    }}
+    #google_translate_element {
+        text-align: center;
+        padding: 0px;
+        position: relative;
+        bottom: 35px;
+        width: 100%;
+        height: auto;
+    }
+}
